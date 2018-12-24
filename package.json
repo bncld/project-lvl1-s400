@@ -1,8 +1,8 @@
 {
-  "name": "nwpj",
+  "name": "nwpkj",
   "version": "1.0.0",
   "description": "",
-  "main": "brain-games.js",
+  "main": "/etc/nwpj/src/bin/brain-games.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
