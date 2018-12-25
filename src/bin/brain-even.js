@@ -1,14 +1,23 @@
 import startGame from 'brain-games.js';
+import greeting from '..';
+
+const isEven = num => num % 2 === 0;
+const randomNumber = (min, max) => Math.round(Math.random() * (max - min) + min);
+const evenRules =  () => 'Answer "yes" if number even, otherwise answer "no"';
 
 startGame();
-const gameRules = 'Answer "yes" if number even, otherwise answer "no"';
-const correctNumber = () => {
-  const randomNumber = () => {
-    return Math.floor(Math.random()*(30-1+1)+1)
-  };
-  const numToAnswer = randomNumber();
-  const qustion = String(numToAnswer);
-  const answer = isEven(question) ? 'yes' : 'no';
-  return (qustion, answer)
-};
+evenRules();
 
+const startEven = () => {
+  const numToAck = randomNumber(1,50);
+  const check = isEven(numToAck) ? 'yes' : 'no';
+  return (numToAck, check);
+  const roundStep = () => {
+    switch(chech):
+      case 'yes': 
+        Console.log('Current!');
+        break;
+      case 'no':
+        Console.log(`"yes" is wrong answer ;(. Correct answer was "no". Let\'s try again, ${userName}!`);
+  }
+};
