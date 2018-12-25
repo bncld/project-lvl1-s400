@@ -1,6 +1,6 @@
 {
   "name": "nwpkj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It's a project Brain-games on Hexlet! There are some logic games for you. Try to pass them.",
   "main": "",
   "bin": {

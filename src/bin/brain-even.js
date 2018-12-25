@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import startGame from 'brain-games.js';
 import greeting from '..';
 
@@ -13,11 +14,17 @@ const startEven = () => {
   const check = isEven(numToAck) ? 'yes' : 'no';
   return (numToAck, check);
   const roundStep = () => {
-    switch(chech):
+    let count = null;
+    switch(check) {
       case 'yes': 
         Console.log('Current!');
-        break;
+        count++;
       case 'no':
         Console.log(`"yes" is wrong answer ;(. Correct answer was "no". Let\'s try again, ${userName}!`);
-  }
+        break;
+    };
+    if (count === 3) {
+        Console.log(`Congratulations, ${userName}`)
+    }
+  };
 };
