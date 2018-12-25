@@ -1,13 +1,19 @@
 {
   "name": "nwpkj",
   "version": "1.0.0",
-  "description": "",
-  "main": "/etc/nwpj/src/bin/brain-games.js",
+  "description": "It's a project Brain-games on Hexlet! There are some logic games for you. Try to pass them.",
+  "main": "",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "games",
+    "javascript",
+    "node",
+    "logicGames"
   ],
   "scripts": {
     "test": "jest",
@@ -24,23 +30,13 @@
     "babel-core": "*",
     "babel-eslint": "^8.2.6",
     "babel-jest": "*",
-    "babel-plugin-transform-runtime": "*",
     "babel-preset-env": "*",
     "babel-preset-flow": "*",
-    "babel-preset-stage-0": "*",
-    "debug": "*",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "*",
-    "eslint-plugin-lodash-fp": "^2.2.0-a1",
-    "flow-bin": "^0.56",
-    "flow-typed": "*",
-    "jest": "^21",
-    "jest-cli": "*"
-  },
+   },
   "dependencies": {
     "readline-sync": "^1.4.9"
   }
