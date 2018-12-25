@@ -5,6 +5,9 @@
     - babel
   
   parser: babel-eslint
+  parserOptions:
+    sourceType: module
+    allowImportExportEverywhere: true
   
   rules:
     no-console: 0

@@ -1,15 +1,20 @@
 {
-  "name": "nwpkj",
-  "version": "1.0.4",
+  "name": "nwpkj1",
+  "version": "1.0.6",
   "description": "It's a project Brain-games on Hexlet! There are some logic games for you. Try to pass them.",
-  "main": "",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "bin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bncld/project-lvl1-s400.git"
+  },
   "keywords": [
     "games",
     "javascript",
@@ -39,6 +44,7 @@
     "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
+    "hexlet-pairs": "^1.0.8",
     "is-even": "^1.0.0",
     "readline-sync": "^1.4.9"
   }
