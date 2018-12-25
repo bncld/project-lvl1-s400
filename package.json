@@ -4,7 +4,8 @@
   "description": "It's a project Brain-games on Hexlet! There are some logic games for you. Try to pass them.",
   "main": "",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
