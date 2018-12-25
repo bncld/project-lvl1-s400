@@ -22,8 +22,8 @@ test:
 check-types:
 	npx flow
 
-lint:
-	npx eslint .
+lint: 
+	npx eslint src/
 
 publish:
 	npm publish
