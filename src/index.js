@@ -1,7 +1,7 @@
 import { car, cdr } from 'hexlet-pairs';
 import readlineSync from 'readline-sync';
 
-export default (whatToDo, gameLogic) => {
+const gameSystem = (whatToDo, gameLogic) => {
   console.log('Welcome to the Brain Games!');
   console.log(whatToDo);
   const answersSteps = 3;
@@ -19,3 +19,5 @@ export default (whatToDo, gameLogic) => {
     }
   } console.log(`Congratulations, ${userName}!`);
 };
+
+export default gameSystem;

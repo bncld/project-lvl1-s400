@@ -8,7 +8,7 @@ even:
 	npx babel-node -- src/bin/brain-even.js
 	
 calc:
-	npx babel-node -- src/bin/brain-calc.js
+	npx babel-node -- src/bin/brain-calc.js	
 	
 lint: 
 	npx eslint .
