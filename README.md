@@ -8,6 +8,9 @@
 [![Build Status](https://travis-ci.org/bncld/project-lvl1-s400.svg?branch=nwpj)](https://travis-ci.org/bncld/project-lvl1-s400)
 
 BRAIN-CALC
+[![asciicast](https://asciinema.org/a/zvVzFJnnU9rbSN9YGgw94fxMK.png)](https://asciinema.org/a/zvVzFJnnU9rbSN9YGgw94fxMK)
+
+BRAIN-EVEN
 [![asciicast](https://asciinema.org/a/gvtn0lOHt9FuZqANoHxD4s664.png)](https://asciinema.org/a/gvtn0lOHt9FuZqANoHxD4s664)
 
 BRAIN-GCD
