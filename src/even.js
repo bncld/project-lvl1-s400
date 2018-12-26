@@ -5,8 +5,8 @@ const evenGame = () => {
   console.log('Answer "yes" if number even, otherwise answer "no"');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
-  const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-  const rundNum = randomNumber(0, 50);
+  const randomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+  let rundNum = randomNumber(0, 50);
   const isEven = num => num % 2 === 0;
   const correctAnswer = isEven(rundNum) ? 'yes' : 'no';
   const rounds = 3;
