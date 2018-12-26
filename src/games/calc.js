@@ -5,8 +5,8 @@ import gameSystem from '..';
 const whatToDo = 'What is the result of the expression?';
 const gameLogic = () => {
   const steps = randomNumber(1, 3);
-  const num1 = randomNumber(1, 100);
-  const num2 = randomNumber(1, 100);
+  const num1 = randomNumber(1, 10);
+  const num2 = randomNumber(1, 10);
   let kindOfCalc;
   let result;
   switch (steps) {

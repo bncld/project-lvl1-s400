@@ -1,11 +1,11 @@
 {
   "name": "nwpkj2",
-  "version": "1.1.0",
+  "version": "1.1.6",
   "description": "It's a project Brain-games on Hexlet! There are some logic games for you. Try to pass them.",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
-    "brain-calc": "dist/bin/brain-calc.js"
+    "brain-calc": "dist/bin/brain-gcd.js"
   },
   "files": [
     "dist",

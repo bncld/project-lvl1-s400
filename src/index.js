@@ -6,15 +6,18 @@ export default (whatToDo, gameLogic) => {
   console.log(whatToDo);
   const answersSteps = 3;
   const userName = readlineSync.question('May I have your name? ');
-  for (let i = 0; i <= answersSteps; i += 1) {
+  for (let i = 1; i <= answersSteps; i += 1) {
     const testPlusAns = gameLogic();
     const test = car(testPlusAns);
     const currentAns = cdr(testPlusAns);
     console.log(`Questin: ${test}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer !== currentAns) {
-      console.log(`'${answer}' is wrong answer :(. Correct answer was '${currentAns}'. Let's try again, ${userName}!`);
+      console.log(`${answer} is wrong answer :(. Correct answer was ${currentAns}.`);
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
-  } console.log(`Congratulations, ${userName}!`);
+    console.log('Correct!');
+  }
+  console.log(`Congratulations, ${userName}!`);
 };
