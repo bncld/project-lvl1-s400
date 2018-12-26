@@ -7,5 +7,8 @@
 
 [![Build Status](https://travis-ci.org/bncld/project-lvl1-s400.svg?branch=nwpj)](https://travis-ci.org/bncld/project-lvl1-s400)
 
-
+BRAIN-CALC
 [![asciicast](https://asciinema.org/a/gvtn0lOHt9FuZqANoHxD4s664.png)](https://asciinema.org/a/gvtn0lOHt9FuZqANoHxD4s664)
+
+BRAIN-GCD
+[![asciicast](https://asciinema.org/a/FC8dHQh17MMv0b4EzLvQOhpaI.png)](https://asciinema.org/a/FC8dHQh17MMv0b4EzLvQOhpaI)
