@@ -15,3 +15,6 @@ BRAIN-EVEN
 
 BRAIN-GCD
 [![asciicast](https://asciinema.org/a/FC8dHQh17MMv0b4EzLvQOhpaI.png)](https://asciinema.org/a/FC8dHQh17MMv0b4EzLvQOhpaI)
+
+BRAIN-PROGRESSION
+[![asciicast](https://asciinema.org/a/eSqeT8hHZJmxwBhAuNrFGtvDg.png)](https://asciinema.org/a/eSqeT8hHZJmxwBhAuNrFGtvDg)
