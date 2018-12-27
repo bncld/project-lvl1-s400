@@ -1,33 +1,33 @@
-import randomNumber from '../randomNumber';
+import randomNumber from '../utils';
 import { cons } from 'hexlet-pairs';
-import gameSystem from '..';
+import gameEngine from '..';
 
-const whatToDo = 'What is the result of the expression?';
-const gameLogic = () => {
-  const steps = randomNumber(1, 3);
+const description = 'What is the result of the expression?';
+const getGameData = () => {
+  const operator = randomNumber(1, 3);
   const num1 = randomNumber(1, 10);
   const num2 = randomNumber(1, 10);
-  let kindOfCalc;
+  let kindOfOperator;
   let result;
-  switch (steps) {
+  switch (operator) {
     case 1:
-      kindOfCalc = '-';
+      kindOfOperator = '-';
       result = num1 - num2;
       break;
     case 2:
-      kindOfCalc = '*';
+      kindOfOperator = '*';
       result = num1 * num2;
       break;
     case 3:
-      kindOfCalc = '+';
+      kindOfOperator = '+';
       result = num1 + num2;
       break;
     default:
       break;
   }
-  const test = `${num1} ${kindOfCalc} ${num2}`;
-  const currentAns = result.toString();
-  return cons(test, currentAns);
+  const question = `${num1} ${kindOfOperator} ${num2}`;
+  const answer = result.toString();
+  return cons(question, answer);
 };
 
-export default() => gameSystem(whatToDo, gameLogic);
+export default() => gameEngine(description, getGameData);
