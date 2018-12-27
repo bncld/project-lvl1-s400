@@ -10,7 +10,7 @@ export default (description, getGameData) => {
     const gameData = getGameData();
     const question = car(gameData);
     const answer = cdr(gameData);
-    console.log(`Questin: ${question}`);
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== answer) {
       console.log(`${userAnswer} is wrong answer :(. Correct answer was ${answer}.`);
