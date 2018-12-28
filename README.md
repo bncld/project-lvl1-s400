@@ -22,3 +22,7 @@ Find the greatest common divisor of given numbers.
 BRAIN-PROGRESSION
 What number is missing in the progression?
 [![asciicast](https://asciinema.org/a/eSqeT8hHZJmxwBhAuNrFGtvDg.png)](https://asciinema.org/a/eSqeT8hHZJmxwBhAuNrFGtvDg)
+
+BRAIN-PRIME
+Answer "yes" if given number is prime. Otherwise answer "no".
+[![asciicast](https://asciinema.org/a/yjZhlUuLZhX99GpoiP9SQTGKd.png)](https://asciinema.org/a/yjZhlUuLZhX99GpoiP9SQTGKd)
