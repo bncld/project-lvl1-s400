@@ -7,26 +7,24 @@ const getGameData = () => {
   const operator = randomNumber(1, 3);
   const num1 = randomNumber(1, 10);
   const num2 = randomNumber(1, 10);
-  let kindOfOperator;
-  let result;
+  let question;
+  let answer;
   switch (operator) {
     case 1:
-      kindOfOperator = '-';
-      result = num1 - num2;
+      question = `${num1} - ${num2}`;
+      answer = String(num1 - num2);
       break;
     case 2:
-      kindOfOperator = '*';
-      result = num1 * num2;
+      question = `${num1} * ${num2}`;
+      answer = String(num1 * num2);
       break;
     case 3:
-      kindOfOperator = '+';
-      result = num1 + num2;
+      question = `${num1} + ${num2}`;
+      answer = String(num1 + num2);
       break;
     default:
       break;
   }
-  const question = `${num1} ${kindOfOperator} ${num2}`;
-  const answer = result.toString();
   return cons(question, answer);
 };
 
