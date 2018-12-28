@@ -1,6 +1,6 @@
 {
   "name": "nwpkj2",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "It's a project Brain-games on Hexlet! There are some logic games for you. Try to pass them.",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
